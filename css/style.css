@@ -1,0 +1,167 @@
+body{
+    background: #EFEFEF;
+    margin: 0;
+}
+a {
+    /*取消a链接下划线*/
+    text-decoration: none;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+ul,ol {
+    list-style: none;
+}
+hr {
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.topNavbar {
+    position: fixed;
+    padding-top: 15px;
+    width: 100%;
+    border: red solid 1px;
+}
+.topNavbar > .logo {
+    height: 50px;
+    display: inline-block;
+    padding-left: 30px;
+    font-family: Impact;
+}
+.logo > span {
+    font-size: 30px;
+    font-weight: bold;
+}
+.logo > .re {
+    color: #3CCB78;
+    margin-right: 5px;
+}
+.logo > .sume {
+    color: #999DA2;
+    
+}
+.topNavbar > nav {
+    float: right;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+.topNavbar > nav > ul > li{
+    float: left;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+.topNavbar > nav > ul > li > a {
+    color: #EFEFEF;
+}
+.banner {
+    height: 520px;
+    background: url(../img/background.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.banner > .mask {
+    height: 520px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+main > .messageCard {
+    background: #FFFFFF;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -300px;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2);
+}
+.messageCard > .cardInner {
+    padding: 50px;
+}
+.messageCard > .cardInner > .head {
+    float: left;
+}
+.messageCard > .cardInner > .head > img {
+    width: 300px;
+    height: 350px;
+}
+.messageCard > .cardInner > .text {
+    float: left;
+    margin-left: 65px;
+    width: 460px;
+}
+.text > h1 {
+    margin-top: 40px;
+}
+.text > p {
+    color: #9da0a7;
+}
+.text > hr {
+    margin-top: 30px;
+}
+.text > dl {
+}
+.messageCard > .cardInner > .text > dl > dt{
+    float: left;
+    width: 30%;
+    margin-top: 20px;
+}
+.text > dl > dd {
+    float: left;
+    width: 70%;
+    color: #9da0a7;
+    margin-top: 20px;
+}
+.messageCard > .mediaContect {
+    background: #3CCB78;
+    text-align: center;
+}
+.messageCard > .mediaContect > a {
+    display: inline-block;
+    width: 40px;;
+    line-height: 30px;
+    padding: 5px 0;
+    border-radius: 50%;
+    margin: 16px;
+    transition: all 0.5s;
+}
+.messageCard > .mediaContect > a:hover {
+    background: #09B66C;
+}
+.messageCard svg {
+    width: 25px;
+    height: 25px;
+    fill: white;
+    vertical-align: top;
+}
+.downloadButton {
+    text-align: center;
+}
+.downloadButton > .downloadPDF {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 21px 55px;
+    display: inline-block;
+    border: #CBCDCF solid 1px;
+    background: #EFEFEF;
+    border-radius: 2px;
+    color: #3E4551;
+    font-weight: bold;
+    margin: 32px;
+    transition: box-shadow 0.5s;
+}
+.downloadButton > .downloadPDF:hover {
+    box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.2);
+}
+.downloadExplain {
+    text-align: center;
+    color: #9da0a7;
+}
+.skills,
+.portfolio {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: red solid 1px;
+}
