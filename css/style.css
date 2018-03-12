@@ -163,6 +163,7 @@ main > .messageCard {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    border: red solid 1px;
 }
 .skills > h2,
 .portfolio > h2 {
@@ -203,4 +204,33 @@ main > .messageCard {
     background: #06CB78;
     border-radius: 2px;
     width: 50%;
+}
+.portfolio > .selectionBar {
+    border: green solid 1px;
+    margin-top: 35px;
+    text-align: center;
+}
+.portfolio > .selectionBar > li {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+.portfolio > .content > li{
+    padding: 80px;
+    border: red solid 1px;
+    display: none;
+}
+.content > li > .intro {
+    float: left;
+    width: 380px;
+}
+.demoPicture {
+    margin-left: 380px;
+}
+.demoPicture > img {
+    width: 400px;
+    height: 300px;
+}
+#content > .active {
+    display: block;
 }
