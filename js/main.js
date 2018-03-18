@@ -27,5 +27,12 @@ for (let i = 0; i < aTags.length; i++) {
         let top = element.offsetTop;
         window.scrollTo(0, top - 80);
     }
-    
+}
+let portfolioTags = $('#siteWorks > .content > li');
+let touchNav = $('#siteWorks > .selectionBar > li');
+for (let i = 0; i < touchNav.length; i++) {
+    $(touchNav[i]).on('click', function(){
+        $('#' + $(this).attr('title')).addClass('active').siblings('.active').removeClass('active');
+        $(touchNav[i]).addClass('checked').siblings('.checked').removeClass('checked');
+    })
 }
