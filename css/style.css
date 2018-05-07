@@ -73,7 +73,8 @@ hr {
     display: block;
     position: relative;
 }
-.topNavbar > nav > ul > li.active > a::after{
+.topNavbar > nav > ul > li.active > a::after,
+.topNavBar > nav > ul > li.highlight > a::after {
     content: '';
     display: block;
     position: absolute;
@@ -90,6 +91,22 @@ hr {
     0%{ width: 0; }
     100%{ width: 100%; }
   }
+@keyframes slideUp{
+    0%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes submenuSlide{
+    0%{
+        margin-right: 100%;
+    }
+    100%{
+        margin-right: 0%;
+    }
+}
 .banner {
     height: 520px;
     background: url(../img/background.jpg);
@@ -115,7 +132,6 @@ main > .messageCard {
     float: left;
 }
 .messageCard > .cardInner > .head > img {
-    width: 300px;
     height: 350px;
 }
 .messageCard > .cardInner > .text {
@@ -161,6 +177,7 @@ main > .messageCard {
 .messageCard > .mediaContect > a:hover {
     background: #09B66C;
 }
+
 .messageCard svg {
     width: 25px;
     height: 25px;
@@ -236,7 +253,7 @@ main > .messageCard {
     height: 5px;
     background: #06CB78;
     border-radius: 2px;
-    width: 50%;
+    width: 80%;
 }
 .portfolio > ul {
     box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2);
@@ -278,3 +295,24 @@ main > .messageCard {
 #content > .active {
     display: block;
 }
+
+.icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+@keyframes s{
+    0%{ width: 0px; height: 0px; opacity: 1; }
+    100%{ width: 100px; height: 100px; opacity: 0; }
+}
+/*[data-x].active{*/
+    /*outline: 10px solid red;*/
+/*}*/
+/*[data-x].offset{*/
+    /*transform: translateY(200px);*/
+/*}*/
+/*[data-x]{*/
+    /*transform: translateY(0);*/
+    /*transition: all 1s;*/
+/*}*/

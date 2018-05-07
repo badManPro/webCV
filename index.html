@@ -9,18 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/css/swiper.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/js/swiper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <style type="text/css">
-        .icon {
-           width: 1em; height: 1em;
-           vertical-align: -0.15em;
-           fill: currentColor;
-           overflow: hidden;
-        }
-    @keyframes s{ 
-      0%{ width: 0px; height: 0px; opacity: 1; }
-      100%{ width: 100px; height: 100px; opacity: 0; }
-    }
-    </style>
 </head>
 <body>
     <div id="topNavbar" class="topNavbar">
@@ -41,7 +29,7 @@
         <div class="mask"></div>
     </div>
     <main>
-        <div class="messageCard" id="siteAbout">
+        <div data-x class="messageCard" id="siteAbout">
             <div class="cardInner clearfix">
                 <div class="head">
                         <img src="../img/head.jpg" alt="head">
@@ -65,34 +53,24 @@
                 </div>
             </div>
             <footer class="mediaContect">
-                <a href="#">
+                <a href="https://github.com/badManPro" target="_blank">
                     <svg class="icon" aria-hidden="true">
                         <use xlink:href="#icon-github"></use>
                     </svg>
                 </a>
-                <a href="#">
+                <a href="#" class="wechat">
                     <svg class="icon" aria-hidden="true">
                         <use xlink:href="#icon-wechat"></use>
                     </svg>
                 </a>
-                <a href="#">
+                <a href="#" class="qq">
                     <svg class="icon" aria-hidden="true">
                         <use xlink:href="#icon-qq"></use>
                     </svg>
                 </a>
-                <a href="#">
+                <a href="https://www.jianshu.com/u/66114e41b75c" target="_blank">
                     <svg class="icon" aria-hidden="true">
-                        <use xlink:href="#icon-zhihu"></use>
-                    </svg>
-                </a>
-                <a href="#">
-                    <svg class="icon" aria-hidden="true">
-                        <use xlink:href="#icon-jianshu"></use>
-                    </svg>
-                </a>
-                <a href="#">
-                    <svg class="icon" aria-hidden="true">
-                        <use xlink:href="#icon-wushanguanwangziti-"></use>
+                        <use xlink:href="#icon-weibiaoti-"></use>
                     </svg>
                 </a>
             </footer>
@@ -104,7 +82,7 @@
             你好，我是本站作者韩磊，鉴于不同的需求，本站预留了简历PDF版本的下载文件，供各位HR取用。
         </p>
     </main>
-    <section class="skills" id="siteSkills">
+    <section data-x class="skills" id="siteSkills">
         <h2>技能</h2>
         <ol class="clearfix">
             <li>
@@ -137,21 +115,21 @@
                     <div class="percent"></div>
                 </div>
             </li>
-            <li>
-                <h3>React</h3>
-                <div class="percentBar">
-                    <div class="percent"></div>
-                </div>
-            </li>
+            <!--<li>-->
+                <!--<h3>React</h3>-->
+                <!--<div class="percentBar">-->
+                    <!--<div class="percent"></div>-->
+                <!--</div>-->
+            <!--</li>-->
         </ol>
     </section>
-    <section class="portfolio" id="siteWorks">
+    <section data-x class="portfolio" id="siteWorks">
         <h2>项目</h2>
         <ul class="selectionBar clearfix">
             <li title="tab1" class="checked">定制导航</li>
             <li title="tab2">卡通动画</li>
             <li title="tab3">个人简历</li>
-            <li title="tab4">网易云音乐</li>
+            <li title="tab4">简易画板</li>
             <li title="tab5">简历编辑器</li>
         </ul>
         <ul class="content" id="content">
@@ -170,7 +148,7 @@
                     <a href="">项目源码</a>
                 </div>
                 <div class="demoPicture">
-                    <img src="./img/demo.jpg" alt="picture">
+                    <img src="./img/keyboard.jpg" alt="picture">
                 </div>
             </li>
             <li class="clearfix" id="tab2">
@@ -206,12 +184,12 @@
                     <a href="">项目源码</a>
                 </div>
                 <div class="demoPicture">
-                    <img src="./img/demo.jpg" alt="picture">
+                    <img src="./img/resume.jpg" alt="picture">
                 </div>
             </li>
             <li class="clearfix" id="tab4">
                 <div class="intro">
-                    <h3>网易云音乐</h3>
+                    <h3>简易画板</h3>
                     <p>项目简介</p>
                     <p>
                         简介<br>
@@ -224,7 +202,7 @@
                     <a href="">项目源码</a>
                 </div>
                 <div class="demoPicture">
-                    <img src="./img/demo.jpg" alt="picture">
+                    <img src="./img/covas.jpg" alt="picture">
                 </div>
             </li>
             <li class="clearfix" id="tab5">
@@ -242,17 +220,16 @@
                     <a href="">项目源码</a>
                 </div>
                 <div class="demoPicture">
-                    <img src="./img/demo.jpg" alt="picture">
+                    <img src="./img/vueResume.jpg" alt="picture">
                 </div>
             </li>
         </ul>
     </section>
-    <section class="skills"></section>
-    <section class="skills"></section>
-    <section class="skills"></section>
-    <section class="skills"></section>
+    <section data-x class="skills"></section>
+    <section data-x class="skills"></section>
 </body>
 <footer>dddd</footer>
-<script src="//at.alicdn.com/t/font_457849_isw5rfzfd48ia4i.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.1.1/Tween.min.js"></script>
+<script src="//at.alicdn.com/t/font_457849_xk09mluzudgkqpvi.js"></script>
 <script src="./js/main.js"></script>
 </html>
