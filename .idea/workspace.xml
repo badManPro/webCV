@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31302145-836f-489b-b6ec-c26a790a46ac" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/hoek/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hoek/.npmignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/hoek/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/hoek/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/hoek/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hoek/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/hoek/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hoek/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/hoek/images/hoek.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/hoek/lib/escape.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hoek/lib/escape.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/hoek/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hoek/lib/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/hoek/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hoek/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/hoek/test/escaper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/hoek/test/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/hoek/test/modules/ignore.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/hoek/test/modules/test1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/hoek/test/modules/test2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/hoek/test/modules/test3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-    </list>
+    <list default="true" id="31302145-836f-489b-b6ec-c26a790a46ac" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -53,8 +35,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3640">
-              <caret line="222" column="49" selection-start-line="222" selection-start-column="49" selection-end-line="222" selection-end-column="49" />
+            <state relative-caret-position="160">
+              <caret line="8" column="105" selection-start-line="8" selection-start-column="105" selection-end-line="8" selection-end-column="105" />
               <folding>
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -79,8 +61,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -89,9 +71,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="960" />
@@ -158,12 +137,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525679129911</updated>
-      <workItem from="1525679131398" duration="8570000" />
+      <workItem from="1525679131398" duration="8903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8570000" />
+    <option name="totallyTimeSpent" value="8903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="23" width="960" height="1057" extended-state="0" />
@@ -214,8 +193,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3640">
-          <caret line="222" column="49" selection-start-line="222" selection-start-column="49" selection-end-line="222" selection-end-column="49" />
+        <state relative-caret-position="160">
+          <caret line="8" column="105" selection-start-line="8" selection-start-column="105" selection-end-line="8" selection-end-column="105" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
           </folding>
