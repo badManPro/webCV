@@ -253,6 +253,20 @@ main > .messageCard {
     height: 5px;
     background: #06CB78;
     border-radius: 2px;
+}
+.skills .percentBar > .html {
+    width: 90%;
+}
+.skills .percentBar > .jquery {
+    width: 80%;
+}
+.skills .percentBar > .vue {
+    width: 65%;
+}
+.skills .percentBar > .http {
+    width: 70%;
+}
+.skills .percentBar > .javascript {
     width: 80%;
 }
 .portfolio > ul {
@@ -287,6 +301,7 @@ main > .messageCard {
 }
 .demoPicture {
     margin-left: 380px;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2);
 }
 .demoPicture > img {
     width: 400px;
