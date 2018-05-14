@@ -299,6 +299,16 @@ main > .messageCard {
     float: left;
     width: 380px;
 }
+.paragraph {
+    width: 300px;
+    font-size: 14px;
+    font-family: SimHei;
+    line-height: 1.5em;
+}
+.intro a {
+    font-size: 14px;
+    color: red;
+}
 .demoPicture {
     margin-left: 380px;
     box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2);
